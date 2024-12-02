@@ -81,10 +81,7 @@ if (nrow(revenue_by_format) > 0) {
   print(paste("No licensed rights revenue data available for the year", year_specific))
 }
 
-# ------------------------------------------------------------
-# New Section: Comparative Analysis of SoundExchange Distributions vs. Direct Record Sales
-# ------------------------------------------------------------
-
+# Comparative Analysis of SoundExchange Distributions vs. Direct Record Sales
 # Step 6: Define Direct Record Sales Formats
 direct_record_sales_formats <- c("CD", "Downloads")  # Add other direct sales formats if present
 
